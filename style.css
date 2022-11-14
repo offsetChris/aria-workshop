@@ -62,6 +62,7 @@ footer li, .page-nav li{
 }
 .page-nav ul{
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 .page-nav .button-primary{
 	padding: .5em;
