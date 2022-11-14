@@ -10,16 +10,16 @@
   <body>
     <main>
       <h1>States and Properties - WAI-ARIA Workshop</h1>
-      <p>There is also an <a href="https://forms.gle/yMLgWwCaxMNRxovk6">optional quiz</a> for this topic.</p>
+      <p>There is also an <a href="https://forms.gle/yMLgWwCaxMNRxovk6" target="_blank">optional quiz (opens in a new window)</a> for this topic.</p>
       <section aria-labelledby="descSec1" class="height-sm">
         <h2 id="descSec1">Activity 1</h2>
-        <p>Add an ARIA state to communicate that this mute button is <em>pressed</em>.</p>
+        <label for="act1">Add an ARIA state to communicate that this mute button is <em>pressed</em>.</label>
         <div class="stage">
-<textarea class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act1" class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <button>Mute</button>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -31,14 +31,14 @@
 
       <section aria-labelledby="descSec2" class="height-sm">
         <h2 id="descSec2">Activity 2</h2>
-        <p>Add an aria state to communicate that this accordion is <strong>NOT</strong> currently expanded.</p>
+        <label for="act2">Add an aria state to communicate that this accordion is <strong>NOT</strong> currently expanded.</label>
         <div class="stage">
-<textarea class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act2" class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <button class="accordion_btn" aria-controls="panel1">Accordion Button!</button>
 <div id="panel1">Accordion expandable content</div>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -51,13 +51,13 @@
 
       <section aria-labelledby="descSec3" class="height-sm">
         <h2 id="descSec3">Activity 3</h2>
-        <p>Add an aria property that communicates that a dialog popup will appear when this button is activated.</p>
+        <label for="act3">Add an aria property that communicates that a dialog popup will appear when this button is activated.</label>
         <div class="stage">
-<textarea class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act3" class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <button>Open the dialog window</button>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -70,6 +70,18 @@
 
       <a href="04_composites.html" class="button-primary next">Next Up: Composites</a>
     </main>
+
+    <nav class="page-nav">
+      <p>Other Activities:</p>
+      <ul>
+        <li><a class="button-primary" href="01_descriptions.html">Descriptions and Relationships</a></li>
+        <li><a  class="button-primary" href="02_landmarks.html">Landmarks</a></li>
+        <li><a aria-current="page" class="button-primary" href="03_states.html">States and Properties</a></li>
+        <li><a class="button-primary" href="04_composites.html">Composites</a></li>
+        <li><a class="button-primary" href="05_live.html">Live</a></li>
+      </ul>
+    </nav>
+
     <footer>
       <p>Author: Christina Adams</p>
       <ul>

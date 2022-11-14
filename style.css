@@ -46,14 +46,29 @@ footer{
 	padding: 20px;
 	border-top: 1px solid #888;
 }
-footer ul{
+footer ul, .page-nav ul{
 	list-style: none;
 	display: flex;
 	margin: 0;
 	padding: 0;
 }
-footer li{
+footer li, .page-nav li{
 	padding: 0 1em 0 0;
+}
+.page-nav{
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 20px;
+}
+.page-nav ul{
+	flex-direction: row;
+}
+.page-nav .button-primary{
+	padding: .5em;
+}
+.page-nav .button-primary[aria-current]{
+	background: transparent;
+	color: powderblue;
 }
 .stage{
 	display: grid;

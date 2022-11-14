@@ -9,19 +9,19 @@
   <body>
     <main>
       <h1>Landmarks - WAI-ARIA Workshop</h1>
-      <p>There is also an <a href="https://forms.gle/2pSfkScmrJD7L2bA8">optional quiz</a> for this topic.</p>
+      <p>There is also an <a href="https://forms.gle/2pSfkScmrJD7L2bA8" target="_blank">optional quiz (opens in a new window)</a> for this topic.</p>
       <section aria-labelledby="descSec1" class="height-sm">
         <h2 id="descSec1">Activity 1</h2>
-        <p>Convert this generic container to a landmark using an ARIA role that has the same semantic meaning as a header.</p>
+        <label for="act1">Convert this generic container to a landmark using an ARIA role that has the same semantic meaning as a header.</label>
         <div class="stage">
-<textarea class="editing" spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act1" class="editing" spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <div>
   <img src="companyLogo.png" alt="Company"/>
   <h1>The Company Website</h1>
 </div>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -36,16 +36,16 @@
 
       <section aria-labelledby="descSec2" class="height-sm">
         <h2 id="descSec2">Activity 2</h2>
-        <p>Convert the same generic container to an HTML landmark with the same semantic meaning.</p>
+        <label for="act2">Convert the same generic container to an HTML landmark with the same semantic meaning.</label>
         <div class="stage">
-<textarea class="editing" spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act2" class="editing" spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <div>
   <img src="companyLogo.png" alt="Company"/>
   <h1>The Company Website</h1>
 </div>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -60,9 +60,9 @@
 
       <section aria-labelledby="descSec3" class="height-xl">
         <h2 id="descSec3">Activity 3</h2>
-        <p>Here's a document that uses no landmarks! Add the relevant landmarks with ARIA or HTML to make a more meaningful experience.</p>
+        <label for="act3">Here's a document that uses no landmarks! Add the relevant landmarks with ARIA or HTML to make a more meaningful experience.</label>
         <div class="stage">
-<textarea class="editing" spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act3" class="editing" spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <div>
   <img src="companyLogo.png" alt="Company"/>
   <h1>The Company Website</h1>
@@ -85,7 +85,7 @@
 </div>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -140,6 +140,18 @@ HTML:
 
       <a href="03_states.html" class="button-primary next">Next Up: States and Properties</a>
     </main>
+
+    <nav class="page-nav">
+      <p>Other Activities:</p>
+      <ul>
+        <li><a class="button-primary" href="01_descriptions.html">Descriptions and Relationships</a></li>
+        <li><a aria-current="page" class="button-primary" href="02_landmarks.html">Landmarks</a></li>
+        <li><a class="button-primary" href="03_states.html">States and Properties</a></li>
+        <li><a class="button-primary" href="04_composites.html">Composites</a></li>
+        <li><a class="button-primary" href="05_live.html">Live</a></li>
+      </ul>
+    </nav>
+
     <footer>
       <p>Author: Christina Adams</p>
       <ul>

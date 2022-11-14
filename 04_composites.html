@@ -13,7 +13,7 @@
 
       <section aria-labelledby="descSec1" class="height-xl">
         <h2 id="descSec1">Activity 1</h2>
-        <p>Add the required roles to complete this tablist composite widget.</p>
+        <label for="act1">Add the required roles to complete this tablist composite widget.</label>
         <ol>
           <li>Include the required child roles</li>
           <li>Label the tab list using aria-labelledby</li>
@@ -23,7 +23,7 @@
           <li>Reference the ARIA Authoring Practices Guide if you get stuck: https://www.w3.org/WAI/ARIA/apg/example-index/tabs/tabs-automatic.html</li>
         </ol>
         <div class="stage">
-<textarea class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act1" class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <h2 id="tablistLabel">A grouped of tabs</h2>
 <div>
   <button id="tab1">Tab 1</button>
@@ -41,7 +41,7 @@
 </div>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -67,7 +67,7 @@
 
       <section aria-labelledby="descSec2" class="height-md">
         <h2 id="descSec2">Activity 2</h2>
-        <p>This is a custom ARIA combobox/listbox pattern that is missing its roles.</p>
+        <label for="act2">This is a custom ARIA combobox/listbox pattern that is missing its roles.</label>
         <ol>
           <li>Add the appropriate roles of combobox and listbox to the correct elements</li>
           <li>Add the correct role to the options in the listbox</li>
@@ -79,7 +79,7 @@
           <li>Reference the ARIA Authoring Practices Guide if you get stuck: https://www.w3.org/WAI/ARIA/apg/example-index/combobox/combobox-select-only.html</li> 
         </ol>
         <div class="stage">
-<textarea class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
+<textarea id="act2" class="editing"  spellcheck="false" oninput="update(this.value, this); sync_scroll(this);" onscroll="sync_scroll(this);">
 <span id="comboLabel">Favorite color</span>
 <div>Choose an option: </div>
 <div id="optionList">
@@ -89,7 +89,7 @@
 </div>
 </textarea>
 
-<pre class="highlighting" aria-hidden="true" tabindex="-1"><code class="language-html highlighting-content"></code></pre>
+<pre class="highlighting"><code class="language-html highlighting-content"></code></pre>
         </div>
 
         <details>
@@ -107,6 +107,18 @@
 
       <a href="05_live.html" class="button-primary next">Next Up: Live Regions</a>
     </main>
+
+    <nav class="page-nav">
+      <p>Other Activities:</p>
+      <ul>
+        <li><a  class="button-primary" href="01_descriptions.html">Descriptions and Relationships</a></li>
+        <li><a class="button-primary" href="02_landmarks.html">Landmarks</a></li>
+        <li><a class="button-primary" href="03_states.html">States and Properties</a></li>
+        <li><a aria-current="page" class="button-primary" href="04_composites.html">Composites</a></li>
+        <li><a class="button-primary" href="05_live.html">Live</a></li>
+      </ul>
+    </nav>
+
     <footer>
       <p>Author: Christina Adams</p>
       <ul>
